@@ -39,7 +39,7 @@ We propose limiting the audio recorded to only tags which would be rendered to t
 footnotes are content which would be rendered). Metadata tags can still exist, though the beginning and ending timestamp should collapse to 0 time elapsed.
 
 ## USFM in WebVTT
-WebVTT allows for many HTML tags to be used in the cue payload as well as with CSS styling. Included in this is the class tag <c>.
+WebVTT allows for many HTML tags to be used in the cue payload as well as with CSS styling. Included in this is the class tag `<c>`.
 We propose the use of two class tags in order to use USFM as semantic tags within the timing file:
 
 ### <c.usfm>

@@ -19,6 +19,7 @@ Initially, we propose a solution to allow for identifying and navigating to the 
 # Proposal
 ## WebVTT File Format
 https://www.w3.org/TR/webvtt1/
+
 https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API
 
 The WebVTT File Format, while typically associated with Video, provides the following benefits:
@@ -42,7 +43,9 @@ WebVTT allows for many HTML tags to be used in the cue payload as well as with C
 We propose the use of two class tags in order to use USFM as semantic tags within the timing file:
 
 ### <c.usfm>
-The content within the usfm class tag contains the usfm tag. For example, a tag for verse 1 would look like: <c.usfm>v 1</c>
+The content within the usfm class tag contains the usfm tag. 
+
+For example, a tag for verse 1 would look like: `<c.usfm>v 1</c>`
 
 Content of the USFM tag can optionally be included following this line. As the WebVTT file is used for captioning video, this can allow for use of the audio track with a video,
 in which also displaying the corresponding text may be desireable. More concretely, if it is desired to include the audio of a chapter of scripture to be played alongside a corresponding
@@ -52,7 +55,8 @@ sign language video of the same scripture, the matching text could be provided h
 ### <c.usfm.tag>
 The usfm.tag class tag is used as a "meta-tag," that is, for instances where the tag itself is read aloud in the the audio track. For instance, the audio of the words "Verse 1," 
 in order to state audibly that the following audio is the content of Verse 1.
-For example: <c.usfm.tag>v 1</c>
+
+For example: `<c.usfm.tag>v 1</c>`
 
 ### c.usfm and c.usfm.tag styling
 As the contents of a VTT cue are intended to be displayed as a caption, the use of this field as semantic tags is undesirable if the VTT file is being used as intended alongside video.

@@ -12,9 +12,13 @@ NOTE the timestamp of a chapter tag includes the start and end time of all conte
 
 NOTE the class usfm.tag is used when a recording is actually of the tag itself, such as the audio of the phrase "Chapter 1"
 NOTE the usfm.tag for c 1 can occur before or after the c 1 tag due to the timestamps sharing the same start timestamp
-00:00:05.000 --> 00:00:10.000
+00:00:05.000 --> 00:00:07.500
 <c.usfm.tag>c 1</c>
 - Chapter 1
+
+00:00:07.500 --> 00:00:10.000
+<c.usfm>s1</c>
+- Sample Section Heading
 
 00:00:10.000 --> 00:00:15.000
 <c.usfm.tag>v 1</c>

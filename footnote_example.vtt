@@ -1,0 +1,65 @@
+WEBVTT
+
+NOTE The following example is of Ephesians Chapter 1 and contains audio footnotes
+
+00:00:00.000 --> 00:00:05.000
+<c.usfm.tag>id</c>
+- Ephesians
+
+NOTE the timestamp of a chapter tag includes the start and end time of all content within the chapter
+00:00:05.000 --> 00:01:45.000
+<c.usfm>c 1</c>
+
+NOTE the class usfm.tag is used when a recording is actually of the tag itself, such as the audio of the phrase "Chapter 1"
+NOTE the usfm.tag for c 1 can occur before or after the c 1 tag due to the timestamps sharing the same start timestamp
+00:00:05.000 --> 00:00:10.000
+<c.usfm.tag>c 1</c>
+- Chapter 1
+
+00:00:10.000 --> 00:00:15.000
+<c.usfm.tag>v 1</c>
+- Verse 1
+
+00:00:15.000 --> 00:00:25.000
+<c.usfm>v 1</c>
+- Paul, an apostle of Christ Jesus through the will of God, to God's holy people in Ephesus, who are faithful in Christ Jesus.
+
+00:00:25.000 --> 00:00:35.000
+<c.usfm>ft</c>
+- Some important and ancient Greek copies do not have, "in Ephesus," but this letter may have been circulated throughout this region to several churches, not just to the church in Ephesus.
+
+00:00:35.000 --> 00:00:40.000
+<c.usfm.tag>v 2</c>
+- Verse 2
+
+00:00:40.000 --> 00:00:50.000
+<c.usfm>v 2</c>
+- Grace to you and peace from God our Father and the Lord Jesus Christ.
+
+00:00:50.000 --> 00:00:55.000
+<c.usfm.tag>v 3</c>
+- Verse 3
+
+00:00:55.000 --> 00:01:05.000
+<c.usfm>v 3</c>
+- May the God and Father of our Lord Jesus Christ be praised, who has blessed us with every spiritual blessing in the heavenly places in Christ.
+
+00:01:05.000 --> 00:01:10.000
+<c.usfm.tag>v 4</c>
+- Verse 4
+
+00:01:10.000 --> 00:01:20.000
+<c.usfm>v 4</c>
+- God chose us in him from the foundation of the world, that we may be holy and blameless in his sight in love.
+
+00:01:20.000 --> 00:01:25.000
+<c.usfm.tag>v 5</c>
+- Verse 5
+
+00:01:25.000 --> 00:01:35.000
+<c.usfm>v 5</c>
+- God predestined us for adoption as sons through Jesus Christ, according to the good pleasure of his will.
+
+00:01:35.000 --> 00:01:45.000
+<c.usfm>ft</c>
+- Some interpreters place the last phrase of Ephesians 1:4 "in love" with verse 5 so that it reads, "In love God predestined us"
